@@ -1,0 +1,31 @@
+#slider{
+    width: 50%;
+    border: 8px solid #3E92CC;
+    height: 50em;
+    margin:auto;
+    margin-top: 5em;
+    border-radius: 10px;
+    /*background-image: url("../images/bikini1.jpg");
+    */
+}
+button{
+    background:#3E92CC;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+}
+#buttonLeft{
+    position: relative;
+    left:-1.4em;
+    top:50%;
+}
+#buttonRight{
+    position: relative;
+    left: 95%;
+    top:50%;
+}
+button:hover{
+    cursor:pointer;
+    background:white;
+    color:#3E92CC;
+}
